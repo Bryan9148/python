@@ -1,0 +1,41 @@
+# Learn Python
+--------------------
+
+Print et les variable, print est un fonction qui affiche tu texte exemple: print("Hello World") 
+>Hello World
+mais il peux aussi affichée ce qui est stocké a l'interieur d'une variable.
+une varible est un endroie ou on stocké quel chose cela peux etre du texte un nombre etx
+exemple:
+var = "bonjour tous le monde"
+print(var) = bonjour tous le monde
+dans ce cas on mais d'autre chose que du texte (str) donc on ne mais pas de guillemée ("").
+
+input. input est tu fonction qui fonction en requet et reponse de l'utlisateur exemple.
+
+ reponse_user = input("quel est ton nom")
+ ^^^^^^^^^^^ <-- la on stock la repone dans la variable (reponse_user) puis
+print(reponse_user) on ne mais pas de guillement car ces t'une variable.
+
+voici command cela marcherais dans un programe
+côté programe:
+.
+# on demande le nom   <-- si on mais un hashtag le ligne ne sera pas prise on conte par le programe.
+
+nom = input("Quel est votre nom")
+
+# on vas aussi demandée l'age
+
+age = input("Quel est votre age")
+print
+
+print("Vous vous appelez " + nom + " est vous avez " + age + " ans" ) <-- on peux rassemlez texte et fonction
+dans la même ligne.
+
+côté utilisateur:
+
+Quel est votre nom bryan
+Quel est votre age 13
+                   ^^^^ L'utilisateur n'a juste cas repondre après la question
+Vous vous appelez bryan et vous avez 13 ans
+
+Chapitre 1 Terminez essais de refaire un programe comme celui si!!
